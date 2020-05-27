@@ -1,0 +1,68 @@
+/* login */
+
+.login-block {
+    justify-content: center;
+    margin-top: 20px;
+}
+.imput-login {
+    width: 100%;
+    background-color: white;
+    border:none;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    height: 35px;
+    outline: 0;
+}
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    background-color: #4393AC;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.3);
+    height: 5vh;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.recuperar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    padding: 20px 0;
+    font-size: 0.8em;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.novo-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    padding: 1  0px 0;
+    font-size: 0.8em;
+    width: 100%;
+}
+.google-btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    font-size: 0.8em;
+    width: 100%;
+    background-color: #418DA5;
+}
+#google {
+    background-color: white;
+    margin-right: 15px;
+    width: 50px;
+}

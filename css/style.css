@@ -14,7 +14,6 @@ body {
 /* CONTAINERS */
 .container {
     display: flex;
-    height: 100vh;
     justify-content: center;
 }
 .row {
@@ -141,12 +140,73 @@ body {
 .icone-rede-social {
     margin: 20px 0;
 }
+.footer {
+    margin-top: 100px;
+    background-color: #2E598F;
+}
 .rede-sociais {
     width: 45px;
     height: 45px;
     margin: 5px;
 }
+/* tech page */
+.tech-body {
+    background-color: white;
+}
+.footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #2E598F;
+}
+.rede-sociais {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+.title h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom:4px solid #FC5F2A;
+}
+p {
+    font-size: 20px;
+}
+.title mark {
+    background-color: #FC5F2A;
+    height: 5px;
+}
+.baner {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.article p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.article h2 {
+    font-size: 20px;
+    color: #4393AC;
+}
+.referencias h3 {
+    padding: 10px 0;
+    margin: 15px 0;
+    border-bottom:4px solid #FC5F2A;
+}
+.referencias a {
+    color: black;
+}
+@media (min-width: 768px) {
+    .baner {
+        width: 70%;
+    } 
+}
 /* login */
+
 .login-block {
     justify-content: center;
     margin-top: 20px;
@@ -187,4 +247,29 @@ body {
     font-size: 0.8em;
     width: 100%;
     border-bottom: 1px solid white;
+}
+.novo-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    padding: 1  0px 0;
+    font-size: 0.8em;
+    width: 100%;
+}
+.google-btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    font-size: 0.8em;
+    width: 100%;
+    background-color: #418DA5;
+}
+#google {
+    background-color: white;
+    margin-right: 15px;
+    width: 50px;
 }
