@@ -1,0 +1,72 @@
+body, h1, h2, div, section, p, form, footer * {
+    margin: 0px;
+    padding: 0px;
+}
+a:hover {
+    text-decoration: none;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 11vh;
+}
+
+.paragrafo-for {
+    color: black;
+    font-size: 1em;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 18px;
+} 
+
+
+.origem{
+    color: white;
+    background: #2e598f;
+}
+
+.Valores{
+    color: #2e598f;
+    margin-bottom: 10px;
+}
+
+#responsabilidade{
+    float: right;
+    text-align: center;
+    background-color: #2e598f;
+    width: 100vw;
+}
+
+#empatia{
+    float: right;
+    text-align: center;
+    background-color: #2e598f;
+    width: 100vw;
+}
+
+#transparencia{
+    float: left;
+    text-align: center;
+    background-color: #fc5f2a;
+    width: 100vw;
+}
+
+#credibilidade{
+    float: left;
+    text-align: center;
+    background-color: #fc5f2a;
+    width: 100vw;
+}
+
+.cards{
+    margin-bottom: 5vh;
+}
+
+.comerciante{
+    color: white;
+}
