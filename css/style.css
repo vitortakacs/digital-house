@@ -1,0 +1,149 @@
+/* RESET CSS */
+body, h1, h2, div, section, p, form, footer * {
+    margin: 0px;
+    padding: 0px;
+}
+a:hover {
+    text-decoration: none;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #2E598F;
+    font-size: 16px;
+}
+/* CONTAINERS */
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+.row {
+    justify-content: center;
+}
+/* CONTEUDO DA PAGINA HOME */
+.logo {
+    width: 150px;
+    margin-top: 11vh;
+}
+.userType-block-home {
+    height: 50vh;
+    align-items: center;
+}
+/* BOTÕES DE TIPO DE USUARIO */
+.userType-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    fill: white;
+    background-color: #4393AC;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-top: 20px;
+    height: 68px;
+}
+.icone-userType{
+    width: 45px;
+    height: 45px;
+    padding-right: 10px;
+}
+.paragrafo-home {
+    color:white;
+    font-size: 1em;
+    text-align: center;
+    height: 100px;
+    padding: 20px 0;
+}
+.hover:hover {
+    text-decoration:none;
+    color: #FC5F2A;
+    fill: #FC5F2A;
+    background-color: #418DA5;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+}
+/* PAGINA LOCALIZAÇÃO */
+.user-block-loc {
+    height: 60vh;
+    align-items: center;
+}
+.paragrafo-for {
+    color:white;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px 0;
+}
+#cep {
+    width: 100%;
+    background-color: white;
+    border:none;
+    padding: 10px;
+    color: #FC5F2A;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.4);
+    height: 5vh;
+    outline: 0;
+}
+.localizacao-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    background-color: #4393AC;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.3);
+    height: 5vh;
+    font-size: 1.3em;
+}
+.icone-cep {
+    padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .localizacao-btn span {
+      font-size: 0.6em;
+    }  
+   
+}
+/* PAGINA LOCALIZAÇÃO */
+.paragrafo-cep {
+    color:white;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px 0;
+}
+.form {
+    width: 100%;
+    background-color: white;
+    border:none;
+    margin: 10px 0;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 40px;
+    outline: 0;
+}
+#mensagem {
+    width: 100%;
+    background-color: white;
+    border:none;
+    margin: 10px 0;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    outline: 0;
+}
+.icone-rede-social {
+    margin: 20px 0;
+}
+.rede-sociais {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+/* login */
