@@ -70,3 +70,15 @@ body {
 .comerciante{
     color: white;
 }
+/* footer */
+.footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #2E598F;
+}
+.rede-sociais {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
