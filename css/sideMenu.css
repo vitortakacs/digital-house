@@ -5,11 +5,13 @@ a:hover {
 
 /* NAV BAR */
 .nav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
+    padding: 0 15px;
     top: 0;
     z-index: 2;
-    padding: 10px;
     background-color: #2E598F;
     width: 100vw;
     height: 50px;
@@ -35,8 +37,11 @@ a:hover {
     justify-content: space-between;
     padding: 10px;
 }
-#sideMenu .logo-h{
-    width: 110px;
+.logo-container {
+    margin-right: 15px;
+}
+.logo-h{
+    width: 100px;
 }
 
 /* ICONES MENU E MENU CLOSE */
@@ -89,6 +94,11 @@ a:hover {
 @media (max-width: 500px) {
     #sideMenu {
         width: 70%;
+    }
+}
+@media (max-width: 900px) {
+    .logo-container {
+        margin-right: 0px;
     }
 }
 @media (min-width: 760px) {
