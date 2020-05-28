@@ -178,7 +178,7 @@ body {
 }
 .title mark {
     background-color: #FC5F2A;
-    height: 5px;
+    padding: 0;
 }
 .baner {
     display: flex;
@@ -285,4 +285,7 @@ body {
 #google {
     background-color: white;
     width: 50px;
+}
+h1 {
+    padding: 0px;
 }
