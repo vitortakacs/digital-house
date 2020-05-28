@@ -172,8 +172,9 @@ body {
     font-size: 2em;
     border-bottom:4px solid #FC5F2A;
 }
-p {
+.p1 {
     font-size: 20px;
+    margin-top: 20px;
 }
 .title mark {
     background-color: #FC5F2A;
