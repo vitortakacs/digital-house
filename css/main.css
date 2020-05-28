@@ -1,0 +1,285 @@
+*{
+    
+}
+footer{
+    margin-top: 5%;
+    background-color: #2E598F;
+}
+
+
+.navbar{
+    position:fixed;
+    z-index: 1;
+    background-color: #2E598F;
+    width: 100vw;
+}
+.logo{
+    margin-left: 48vw;
+    width: 28vw;
+
+
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);;
+    color:#FC5F2A;
+}
+
+.col-sm-4{
+    margin-left:10%;
+    width: 80%;
+}
+.homeImg{
+    margin-top: 10%;
+}
+
+.descripHome{
+    margin-top: 6%;
+    font-size: 1.4em;
+    text-align: center;
+    color:#2E598F;
+    margin-bottom: 0;
+
+}
+.borda{
+    border-top: 1px solid #2E598F;
+    border-width: 5px;
+    display: inline-block;
+    padding-left: 64%;
+    margin-left: 18%;
+
+}
+.hiperCad{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.hiperCad a{
+    flex-grow: 1;
+    color:white;
+    background-color: #FC5F2A;
+    border: 1px solid #FC5F2A;
+    text-decoration: none;
+    font-weight: none;
+    padding: 3% 3%;
+    text-align: center;
+}
+.imgInicio{
+    margin-top: 8%;
+    width:100vw;
+}
+
+.footerImg{
+    margin: 2% 2% 2% 0%;
+    width:14%;
+    float:left;
+}
+span{
+    color:white;
+}
+
+.blockDes{
+    color:white;
+    background-color: #4393AC;
+    border: 1px solid #4393AC;
+    text-decoration: none;
+    font-weight: none;
+    padding-right: 19%;
+    padding-left: 19%;
+    text-align: center;
+    font-size: 1.4em;
+
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+.col-sm-12{
+    padding: 0;
+}
+footer p{
+    display: none;
+}
+
+.formulario{
+   margin: 0% 10% 0% 10%;
+   margin-top: 20%;
+}
+.caixas-form{
+    padding: 20px;
+    border: solid 1px rgb(100, 100, 100);
+    box-shadow: -0.8px 4px rgba(80, 80, 80, 0.5);
+    width: 100%;
+    text-align: left;
+    padding: 4% 12% 2% 2%;
+    margin: 2% 0%;
+    border-radius: 9999px;
+    outline: none;
+}
+.btn-cadastrar{
+    padding: 8px 40px 8px 40px;
+    margin-left: 26%;
+    color:white;
+    background-color: #4393AC;
+}
+.icons-block{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 32%;
+}
+.icons-footer{
+    
+    width: 13%;
+}
+.icon-anexo{
+    padding-bottom: 10%;
+    width: 20%;
+}
+.icon-documento{
+    margin-left: 1%;
+    margin-bottom: 10%;
+}
+.anexo-input{
+    display: none;
+}
+.svg-anexo{
+    display: inline;
+}
+.lbl-anexo{
+    padding: 1%;
+    margin-top: 8%;
+    width: 76%;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius:9999px;
+}
+
+
+@media (min-width: 768px) { 
+
+    .col-sm-4{
+        margin-left: 0%;
+        width: 80%;
+    }
+    .logo{
+        margin-left: 60%;
+    }
+
+    .btn-cadastrar{
+        padding: 20px 70px 20px 70px;
+        margin-left: 36%;
+        color:white;
+        background-color: #4393AC;
+    }
+    .icon-anexo{
+        padding-bottom: 10%;
+        width: 14%;
+    }
+
+    .icon-documento{
+        margin-left: 1%;
+        margin-bottom: 0%;
+    }
+    .icons-footer{
+        
+        width: 10%;
+    }
+    .icons-block{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 34%;
+    }
+ }  
+
+
+ @media (min-width: 1200px) { 
+    footer p{
+        display: block;
+    }
+    .col-sm-4{
+        margin-left: 0%;
+        width: 80%;
+    }
+
+    .imgInicio{
+       height: 90vh;
+       margin-top:0% ;
+
+    }
+    .logo{
+        width: 10%;
+        margin-left: 40%;
+    }
+    .descripHome{
+        margin-top: 2%;
+    }
+    .footerImg{
+        width: 6%;
+        margin-left: 2%;
+    }
+    .descFooter{
+        text-align: center;
+        margin-left: 30%;
+    }
+    .hiperCad{
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    footer{
+        margin-top: 2%;
+    }
+
+    .sideMenu{
+        width: 34%;
+    }
+
+    .icons-block{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 42%;
+        
+    }
+    .icons-footer{
+        
+        
+        width: 6%;
+    }
+
+
+    .caixas-form{
+       margin-left: 30%;
+        border: solid 1px rgb(100, 100, 100);
+        box-shadow: -0.8px 4px rgba(80, 80, 80, 0.5);
+        width: 50%;
+        text-align: left;
+        padding: 2% 8% 2% 2%;
+        border-radius: 9999px;
+        outline: none;
+    }
+
+    
+.formulario{
+    margin: 0% 8% 0% 10%;
+    margin-top: 8%;
+    width: 80%;
+ }
+.caixa-anexo{
+    margin-top: 10%;
+}
+
+.btn-cadastrar{
+    margin-left: 42vw;
+}
+
+.icons-footer{
+        
+    width: 5%;
+}
+.icons-block{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 42%;
+}
+ }  
