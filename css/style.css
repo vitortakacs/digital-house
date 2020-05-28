@@ -69,7 +69,6 @@ body {
 }
 
 .hover:hover {
-    text-decoration:none;
     color: #FC5F2A;
     fill: #FC5F2A;
     background-color: #418DA5;
@@ -260,7 +259,6 @@ body {
     text-transform: uppercase;
 }
 .hover-login:hover {
-    text-decoration:none;
     color: #FC5F2A;
 }
 .recuperar {
@@ -340,4 +338,51 @@ body {
     color: white;
     font-weight: bold;
     padding: 15px;
+}
+.hover-registrar:hover {
+    color: #4393AC;
+    background-color: rgb(250, 86, 31);
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+}
+/* encontre uma loja */
+.loja {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #2E598F;
+}
+.img-loja {
+    width: 40%;
+    height: 142px;
+}
+.descricao {
+  width: 60%;
+  padding: 10px;
+  text-align: start;
+  color: white;
+}
+
+
+.type {
+    justify-content: space-around;
+}
+.type-btn {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    height: 85px;
+}
+.restaurante { 
+    background-color: #FC5F2A;
+}
+.mercado {
+    background-color: #2E598F
+}
+.outros {
+    background-color: #4393AC;
 }

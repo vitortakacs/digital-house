@@ -9,9 +9,13 @@ document.querySelector("main").addEventListener("click",function (event) {
 });
 function openSideMenu() {
     let menu = document.querySelector("#sideMenu");
+    let shadow = document.querySelector(".background-shadow");
     menu.style.display = "block";
+    shadow.style.display = "block";
 }
 function closeSideMenu() {
     let menu = document.querySelector("#sideMenu");
+    let shadow = document.querySelector(".background-shadow");
     menu.style.display = "none";
+    shadow.style.display = "none";
 }
