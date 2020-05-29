@@ -176,7 +176,7 @@ body {
     margin: 5px;
 }
 .title h1 {
-    text-align: center;
+    text-align:start;
     padding: 10px 0;
     color: black;
     font-weight: bold;
@@ -193,7 +193,7 @@ body {
 }
 .p1 {
     font-size: 20px;
-    margin-top: 20px;
+    margin: 20px 0;
 }
  mark {
     background-color: #FC5F2A;
