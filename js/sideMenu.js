@@ -4,7 +4,7 @@ document.querySelector("#iconeMenu").addEventListener("click",function (event) {
 document.querySelector("#close-side-menu").addEventListener("click",function (event) {
     closeSideMenu();
 });
-document.querySelector("main").addEventListener("click",function (event) {
+document.querySelector(".background-shadow").addEventListener("click",function (event) {
     closeSideMenu();
 });
 function openSideMenu() {
