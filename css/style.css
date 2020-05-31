@@ -1,5 +1,5 @@
 /* RESET CSS */
-body, h1, h2, div, section, p, form, footer * {
+body, h1, h2, div, section, p, form, footer, * {
     margin: 0px;
     padding: 0px;
 }
@@ -93,7 +93,7 @@ body {
     color: #FC5F2A;
     border-radius: 20px;
     box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.4);
-    height: 5vh;
+    height: 30px;
     outline: 0;
 }
 .localizacao-btn {
@@ -152,7 +152,9 @@ body {
     margin: 20px 0;
 }
 .footer {
-    margin-top: 100px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
     background-color: #2E598F;
 }
 .rede-sociais {
@@ -341,48 +343,26 @@ body {
 }
 .hover-registrar:hover {
     color: #4393AC;
-    background-color: rgb(250, 86, 31);
+    background-color: #fa561f;
     box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
 }
-/* encontre uma loja */
-.loja {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #2E598F;
-}
-.img-loja {
-    width: 40%;
-    height: 142px;
-}
 .descricao {
-  width: 60%;
-  padding: 10px;
-  text-align: start;
-  color: white;
-}
-
-
-.type {
-    justify-content: space-around;
-}
-.type-btn {
-    margin-top: 10px;
+    padding: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 15px;
+    flex-direction: column;justify-content: space-around;
+    background-color: #2E598F;
+    width: 60%;
+}
+.lojasImg {
+    width: 40%;
+}
+.loja-btn {
+    display: flex;
     color: white;
-    padding: 5px;
-    height: 85px;
+    font-weight: bolder;
+    font-size: 1em;
+    margin: 20px 0;
 }
-.restaurante { 
-    background-color: #FC5F2A;
-}
-.mercado {
-    background-color: #2E598F
-}
-.outros {
-    background-color: #4393AC;
+.loja-btn h3 {
+
 }

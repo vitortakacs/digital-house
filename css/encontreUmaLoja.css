@@ -1,0 +1,117 @@
+body, h1, h2, div, section, p, form, footer * {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding-top: 50px;
+}
+a:hover {
+    color: white;
+}
+.footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #2E598F;
+}
+.rede-sociais {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+.descricao {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;justify-content: space-around;
+    background-color: #2E598F;
+    width: 60%;
+}
+.mercado {
+    background-color: #2E598F;
+}
+.restaurante {
+    background-color: #fa561f;
+}
+.outros {
+    background-color: #4393AC;
+}
+.lojasImg {
+    width: 40%;
+    height: 100%;
+}
+.loja-btn {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    height: 161px;
+    margin: 20px 0;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.15);
+}
+.descricao h3 {
+    font-size: 1.2em;
+}
+.descricao p {
+    font-size: 1.2em;
+}
+.row {
+    justify-content: space-between;
+}
+.type-btn {
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 35%;
+    height: 100px;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.type {
+    padding: 0 15px;
+}
+.outros-btn {
+    width: 25%;
+}
+.user-localizasao {
+    padding: 10px;
+}
+.shc-loja {
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+}
+.trocarEndereço {
+    color: rgba(0, 0, 0, 0.5);
+}
+.trocarEndereço:hover {
+    color: rgba(0, 0, 0, 0.5)
+
+}
+.input-field{
+    width: 100%;
+    font-size: 0.8em;
+    height: 2.4rem;
+    padding-left: 5px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.input-searchLoja{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 1000S%;
+    margin: 0 10px 20px 10px;
+    padding: 0 10px; 
+}
+.search-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 0.3rem;
+}
