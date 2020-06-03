@@ -119,14 +119,14 @@ body {
     }  
    
 }
-/* PAGINA LOCALIZAÇÃO */
+/* PAGINA CONTATE-NOS */
 .paragrafo-cep {
     color:white;
     font-size: 1em;
     text-align: center;
     padding: 10px 0;
 }
-.form {
+.formInput {
     width: 100%;
     background-color: white;
     border:none;
@@ -147,6 +147,16 @@ body {
     color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     outline: 0;
+}
+.enviar {
+    background-color: #4393AC;
+    border: none;
+}
+#erroList {
+    padding-left: 30px;
+    background-color: rgba(67, 148, 172, 0.699);
+    border-radius: 15px;
+    color: white;
 }
 .icone-rede-social {
     margin: 20px 0;
@@ -226,7 +236,7 @@ body {
 @media (min-width: 768px) {
     .baner {
         width: 70%;
-    } 
+    }
 }
 /* login */
 .login-block {
@@ -257,8 +267,7 @@ body {
     background-color: #4393AC;
     box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.2);
     height: 5vh;
-    font-size: 1.5em;
-    text-transform: uppercase;
+    font-size: 1em;
 }
 .hover-login:hover {
     color: #FC5F2A;
@@ -363,6 +372,10 @@ body {
     font-size: 1em;
     margin: 20px 0;
 }
-.loja-btn h3 {
-
+.loginGoogle {
+    margin-top: 20px;
+}
+.title-cadastro {
+    color: white;
+    margin-bottom: 10px;
 }
