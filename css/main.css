@@ -5,8 +5,20 @@ footer{
     margin-top: 5%;
     background-color: #2E598F;
 }
-
-
+.btn {
+    color: white;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: #4393AC;
+    border: none;
+    margin: 10px;
+}
+.btn:hover {
+    color: #FC5F2A;
+}
+.cadastro-btn{
+   justify-content: center;
+   width: 100vw;
+}
 .navbar{
     position:fixed;
     z-index: 1;
@@ -18,11 +30,6 @@ footer{
     width: 28vw;
 
 
-}
-.btn{
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0);;
-    color:#FC5F2A;
 }
 
 .col-sm-4{
@@ -114,9 +121,13 @@ footer p{
     width: 100%;
     text-align: left;
     padding: 4% 12% 2% 2%;
-    margin: 2% 0%;
+    margin: 2.5% 0%;
     border-radius: 9999px;
     outline: none;
+}
+.titleCadastro {
+    text-align: center;
+    color: #2E598F;
 }
 .btn-cadastrar{
     padding: 8px 40px 8px 40px;
@@ -150,14 +161,15 @@ footer p{
     display: inline;
 }
 .lbl-anexo{
-    padding: 1%;
-    margin-top: 8%;
+    padding: 6%;
     width: 76%;
     text-align: center;
     background-color: #F2F2F2;
-    border-radius:9999px;
+    border-radius: 30px;
 }
-
+.caixa-anexo{
+        margin: 5% 0;
+    }
 
 @media (min-width: 768px) { 
 
@@ -248,8 +260,6 @@ footer p{
         
         width: 6%;
     }
-
-
     .caixas-form{
        margin-left: 30%;
         border: solid 1px rgb(100, 100, 100);
@@ -262,26 +272,31 @@ footer p{
     }
 
     
-.formulario{
-    margin: 0% 8% 0% 10%;
-    margin-top: 8%;
-    width: 80%;
- }
-.caixa-anexo{
-    margin-top: 10%;
+    .formulario{
+        margin: 0% 8% 0% 10%;
+        margin-top: 8%;
+        width: 80%;
+    }
+    .icons-block{
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 42%;
+    }
+} 
+.footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #2E598F;
 }
-
-.btn-cadastrar{
-    margin-left: 42vw;
+.rede-sociais {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
 }
-
-.icons-footer{
-        
-    width: 5%;
+.anexos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 0;
 }
-.icons-block{
-    margin-top: 1%;
-    margin-bottom: 2%;
-    margin-left: 42%;
-}
- }  
