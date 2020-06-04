@@ -36,7 +36,7 @@ function validar(){
             evento.preventDefault()
             errolist.hidden = "";
         } else {
-            alert("Mensagem enviada!")
+            alert("Mensagem enviada!!")
         }
     })
 }
