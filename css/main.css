@@ -115,14 +115,13 @@ footer p{
    margin-top: 20%;
 }
 .caixas-form{
-    padding: 20px;
     border: solid 1px rgb(100, 100, 100);
     box-shadow: -0.8px 4px rgba(80, 80, 80, 0.5);
     width: 100%;
     text-align: left;
     padding: 4% 12% 2% 2%;
     margin: 2.5% 0%;
-    border-radius: 9999px;
+    border-radius:50px;
     outline: none;
 }
 .titleCadastro {
@@ -261,10 +260,10 @@ footer p{
         width: 6%;
     }
     .caixas-form{
-       margin-left: 30%;
+       margin-left: 15%;
         border: solid 1px rgb(100, 100, 100);
         box-shadow: -0.8px 4px rgba(80, 80, 80, 0.5);
-        width: 50%;
+        width: 75%;
         text-align: left;
         padding: 2% 8% 2% 2%;
         border-radius: 9999px;

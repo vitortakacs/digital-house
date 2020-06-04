@@ -29,7 +29,9 @@ body {
     color: white;
     background: #2e598f;
 }
-
+h2, h3 {
+    line-height: 40px;
+}
 .Valores{
     color: #2e598f;
     margin-bottom: 10px;
