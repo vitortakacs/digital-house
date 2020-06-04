@@ -10,7 +10,7 @@ const paginasArrimo = {
     getCep();
     getPosition();
   }
-  
+
   
   //seletor de Id
   function selectId(id) {
@@ -65,7 +65,7 @@ function getEndereco() {
       .then(function (rua) {
           localStorage.setItem("rua", rua.data.logradouro);
       });
-  }
+}
   
   //pagina encontre um loja
 function inserirRua(){

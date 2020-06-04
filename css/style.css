@@ -1,5 +1,5 @@
 /* RESET CSS */
-body, h1, h2, div, section, p, form, footer, * {
+body, h1, h2, div, section, p, form, footer, ul, * {
     margin: 0px;
     padding: 0px;
 }
@@ -153,10 +153,11 @@ body {
     border: none;
 }
 #erroList {
-    padding-left: 30px;
+    padding-left: 20px;
     background-color: rgba(67, 148, 172, 0.699);
     border-radius: 15px;
     color: white;
+    margin-bottom: 5px;
 }
 .icone-rede-social {
     margin: 20px 0;
@@ -310,6 +311,7 @@ body {
 }
 .google-btn span {
     margin: auto;
+    padding: 0px 5px;
 }
 #google {
     background-color: white;
@@ -346,8 +348,12 @@ body {
 .img-rodape {
     background-color: #4393AC;
     text-align: center;
+    display: flex;
     color: white;
     font-weight: bold;
+    font-size: 0.8em;
+    height: 70px;
+    align-items: center;
     padding: 15px;
 }
 .hover-registrar:hover {
@@ -378,4 +384,11 @@ body {
 .title-cadastro {
     color: white;
     margin-bottom: 10px;
+}
+.cadastrarBtn {
+    border: none;
+}
+#cadastroDeUsuario label{
+    padding-left: 10px;
+    color: white;
 }
