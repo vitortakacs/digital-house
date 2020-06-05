@@ -38,5 +38,12 @@ function validar(){
         } else {
             alert("Mensagem enviada!!")
         }
+        let reset = selectId("reset");
+        reset.addEventListener("click", function(){
+            errolist.innerHTML = "";
+        nome.style.border = "none";
+        email.style.border = "none";
+        mensagem.style.border = "none";
+        })
     })
 }   

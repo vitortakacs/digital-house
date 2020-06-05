@@ -75,7 +75,7 @@ function inserirRua(){
         endereco.innerHTML = localStorage.getItem("rua");
     }
 }
-  //redirecionamento para a pagina encontre uma loja
-  function redirecionamento() {
-    window.location.href = "file:///C:/Users/igoro/%C3%81rea%20de%20Trabalho/pi-digital-house/digital-house/html/encontreUmaLoja.html"
-  }
+ //redirecionamento para a pagina encontre uma loja
+function redirecionamento() {
+  window.location.href = "file:///C:/Users/igoro/%C3%81rea%20de%20Trabalho/pi-digital-house/digital-house/html/encontreUmaLoja.html"
+}
