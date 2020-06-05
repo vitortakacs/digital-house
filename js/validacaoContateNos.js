@@ -1,17 +1,5 @@
-var pagina = document.title
 var errolist = selectId("erroList");
-
-
 validar();
-function selectId(id) {
-    return document.getElementById(id);
-}
-function empty(input) {
-    return input.value.trim() === "";
-}
-function mensagemDeErro(mensagem){
-    errolist.innerHTML += "<li>" + mensagem +"</li>";
-}
 function validar(){
     let formContateNos = selectId("contateNos");
     formContateNos.addEventListener("submit", function(evento){
@@ -35,15 +23,25 @@ function validar(){
         if(errolist.querySelectorAll("li").length > 0) {
             evento.preventDefault()
             errolist.hidden = "";
-        } else {
+        }
+        else {
             alert("Mensagem enviada!!")
         }
         let reset = selectId("reset");
         reset.addEventListener("click", function(){
             errolist.innerHTML = "";
-        nome.style.border = "none";
-        email.style.border = "none";
-        mensagem.style.border = "none";
+            nome.style.border = "none";
+            email.style.border = "none";
+            mensagem.style.border = "none";
         })
     })
-}   
+} 
+function selectId(id){
+    return document.getElementById(id);
+}
+function empty(input) {
+    return input.value.trim() === "";
+}
+function mensagemDeErro(mensagem){
+    errolist.innerHTML += "<li>" + mensagem +"</li>";
+}  

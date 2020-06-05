@@ -1,5 +1,5 @@
-var listaDeErro = selectId("erroList");
 verificador();
+var listaDeErro = selectId("erroList");
 function verificador(){
     let loginBtn = selectId("loginBtn");
     loginBtn.addEventListener("click", function(){
@@ -22,7 +22,7 @@ function verificador(){
             nomeDeUsuario.style.border = "solid 2px #ff3737b3";
             senha.style.border = "solid 2px #ff3737b3";
         }
-        else{
+        else {
             redirecionamento();
         }
     })

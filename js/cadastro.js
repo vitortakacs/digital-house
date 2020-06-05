@@ -1,10 +1,10 @@
 const paginasArrimo = {
-    cadastro: "Arrimo | Cadastro", cadastroDeUsuarios: "Arrimo | Cadastro de usuarios",
-    encontreUmaLoja: "Arrimo | encontre uma loja", localizacao: "Arrimo | Localização"
+    cadastro: "Arrimo | Cadastro",
+    cadastroDeUsuarios: "Arrimo | Cadastro de usuarios"
 };
-  let titlePage = document.title;
-  if (paginasArrimo.cadastroDeUsuarios === titlePage){
-    var listaDeErro = selectId("erroList");
+let titlePage = document.title;
+if (paginasArrimo.cadastroDeUsuarios === titlePage){
+    var listaDeErro = selectId ("erroList");
     verificador();
 }
 if(paginasArrimo.cadastro === titlePage){
@@ -21,7 +21,7 @@ function mensagemDeErro(mensagem){
     listaDeErro.innerHTML += "<li>" + mensagem +"</li>";
 }
 //validação de cadastro do consumidor
-function verificador(){
+function verificador() {
     let formCadastroDeUsuario = selectId("cadastroDeUsuario");
     formCadastroDeUsuario.addEventListener("submit", function(evento){
         evento.preventDefault();
@@ -65,14 +65,13 @@ function verificador(){
         if(listaDeErro.querySelectorAll("li").length > 0){
                
         }else {
-            localStorage.setItem("cep", validarCep(selectId("cep").value));
+            validarCep(selectId("cep").value);
             guardaDados();
             getEndereco();
-            setTimeout(function(){
-                redirecionamento();
-            },1000);
+            redirecionamento();
         }
     });
+}  
 //gurdar dados do uasuario no localStorage
 function guardaDados(){
     let nomeDeUsuario = selectId("nomeDeUsuario").value;
@@ -89,7 +88,7 @@ function validarCep(cep){
             cepValidado += cep[i];
         }
     }
-    return cepValidado;
+    localStorage.setItem("cep", cepValidado);
 }
 //requisição para a API de via cep
 function getEndereco(){
@@ -98,7 +97,7 @@ function getEndereco(){
           localStorage.setItem("rua", rua.data.logradouro);
       });
 }
-}//redirecionamento para a pagina encontre uma loja
-function redirecionamento(){
-    window.location.href = "file:///C:/Users/igoro/%C3%81rea%20de%20Trabalho/pi-digital-house/digital-house/html/encontreUmaLoja.html"
+//redirecionamento para a pagina encontre uma loja
+function redirecionamento() {
+    setTimeout(window.location.href = "file:///C:/Users/igoro/%C3%81rea%20de%20Trabalho/pi-digital-house/digital-house/html/encontreUmaLoja.html",500)
 }
